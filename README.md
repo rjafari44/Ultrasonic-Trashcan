@@ -1,6 +1,6 @@
 # Ultrasonic Trashcan
 
-#### This project was derived from the IEEE Student Branch at UCI. This code consists of 2 modes/schematics. Both are related topic with different schematics but I combined them into one code with an option for each mode with user input. I have also created my own schematics within LTspice based off of the project's original schematic, so feel free to follow them for an exact setup or change them according to your need. The LTspice files are provided in the project.
+#### This project was derived from the IEEE Student Branch at UCI. This code consists of 2 modes and schematics running on an ESP32. Both are related topic with different schematics but I combined them into one code with an option for each mode with user input. I have also created my own schematics within LTspice based off of the project's original schematic, so feel free to follow them for an exact setup or change them according to your need. The LTspice files are provided in the project.
 
 ---
 
@@ -23,9 +23,9 @@ The second mode utilizes an ultrasonic sensor to rotate the servo motor to a set
 ---
 
 ## How to run
-I ran this code on a WeAct Studio esp32c3 board.
+I ran this code on a WeAct Studio ESP32-C3 board.
 
-If using the Arduino IDE, make sure the WeAct Studio esp32c3 board is the correct selected one and enable CDC on boot.
+If using the Arduino IDE, make sure the WeAct Studio ESP32-C3 board is the correct selected one and enable CDC on boot.
 
 If running the script in CLI, it will prompt you for your board's serial port that it is connected to, so you need to find it and mention it. The serial port is usually /dev/ttyACM0 or /dev/ttyUSB0 but it could also be different. Also, if the shell script is not executable, chmod it.
 
