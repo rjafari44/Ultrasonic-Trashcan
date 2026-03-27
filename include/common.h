@@ -1,5 +1,8 @@
 #pragma once
 
+#include <Arduino.h>
+#include <ESP32Servo.h>
+
 enum Mode{ MENU, POT, TRASHCAN };
 
 // external global variables

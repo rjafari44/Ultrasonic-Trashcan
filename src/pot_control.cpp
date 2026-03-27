@@ -1,6 +1,4 @@
 #include "common.h"
-#include <Arduino.h>
-#include <ESP32Servo.h>
 
 // global variable declaration, made to only be used within this file
 // servo variabless
