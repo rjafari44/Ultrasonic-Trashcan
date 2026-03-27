@@ -9,7 +9,7 @@ First mode is a potentiometer controlled servo and the second, a ultrasonic sens
 
 #### Circuit One Schematic:
 
-![Diagram](assets/pot_Control_Servo.png)
+![Diagram](assets/pot-control-servo.png)
 
 ---
 
@@ -18,7 +18,7 @@ The second mode utilizes an ultrasonic sensor to rotate the servo motor to a set
 
 #### Circuit Two Schematic:
 
-![Diagram](assets/ultrasonic_Trashcan.png)
+![Diagram](assets/ultrasonic_trashcan.png)
 
 ---
 
